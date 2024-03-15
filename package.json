@@ -1,0 +1,39 @@
+{
+  "name": "dalila-node-js-mud-client",
+  "version": "0.1.1",
+  "description": "A sample Node.js app using Express 4",
+  "engines": {
+    "node": "5.9.1"
+  },
+  "main": "dalilamud.js",
+  "scripts": {
+    "heroku-prebuild": "echo This runs before Heroku installs your dependencies.",
+    "heroku-postbuild": "echo This runs afterwards.",
+    "start": "node dalilamud.js",
+    "test": "ls && echo \"Happy Mudding ^^\" exit 1",
+    "postinstall": "echo This runs after install."
+  },
+  "dependencies": {
+    "ejs": "2.4.1",
+    "express": "4.13.3",
+    "socket.io": ">= 1.0.0",
+    "localize": "*"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DalilaMud/Dalila-Mud"
+  },
+  "bugs": {
+    "url": "https://github.com/DalilaMud/Dalila-Mud/issues"
+  },
+  "homepage": "https://github.com/DalilaMud/Dalila-Mud",
+  "keywords": [
+    "node",
+    "heroku",
+    "express",
+    "mud"
+  ],
+  "author": "Nobody Work For You.",
+  "license": "MIT"
+}
